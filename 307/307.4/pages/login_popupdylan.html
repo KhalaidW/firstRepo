@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            box-sizing: border-box;
+        }
+
+        * {
+            box-sizing: inherit;
+        }
+
+        fieldset {
+            text-align: center;
+            width: 400px;
+            height: 500px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            box-shadow: 6px 10px 10px 1px rgba(0, 0, 0, 0.481);
+            background-color: rgb(231, 231, 231);
+        }
+
+        div {
+            margin: 4rem;
+        }
+
+        input {
+            display: block;
+            text-align: center;
+            width: 100%;
+            border: none;
+            font-size: 1.2rem;
+            padding: 20px;
+            background-color: rgb(223, 223, 222);
+        }
+        input[type="submit"]{
+            background-color: rgb(0, 204, 255);
+            color: white;
+        }
+        h3 {
+            color: rgb(241, 172, 71);
+        }
+    </style>
+</head>
+
+<body>
+    <fieldset>
+        <legend>
+            <img src="../images/UserIconBlack.svg" alt="UserIcon" />
+        </legend>
+        <form>
+            <h1>User Login</h1>
+            <div>
+                <input type="text" name="username" placeholder="Username"><br>
+                <input type="password" name="password" placeholder="Password"><br>
+                <input type="submit" value="Login" id="">
+            </div>
+            <h3>Forgot Password</h3>
+
+        </form>
+    </fieldset>
+
+</body>
+
+</html>

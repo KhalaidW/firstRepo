@@ -1,0 +1,18 @@
+#modal {
+  height: 200px;
+  width: 200px;
+  background-color: rgb(255, 0, 0);
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  /* border: 10px ridge slategray; */
+  border-bottom: 35px ridge slategray;
+  border-top: 30px ridge slategray;
+  border-radius: 50%;
+  box-shadow: 10px 10px 10px 6px rgba(0, 0, 0, 0.481);
+}

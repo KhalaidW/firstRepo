@@ -1,0 +1,50 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000d85;
+}
+
+li {
+    float: left;
+    border-right: 1px solid #bbb;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #6e65c7;
+}
+
+#login {
+    display: flex;
+    align-items: center;
+}
+
+.card {
+    max-width: 150px;
+    max-height: 100%;
+    border: 3px solid black;
+}
+
+.sec2 {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    border: 3px solid black;
+}
